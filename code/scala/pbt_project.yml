@@ -23,6 +23,16 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: sheldon.frami@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-03 08:48:56'
+    datasets:
+      inputs: []
+      outputs: []
   workflows/Mrs__Dexter_Lind:
     name: Mrs__Dexter_Lind
     description: null
@@ -54,4 +64,9 @@ workflows:
       inputs: []
       outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Austin_Grant:
+    name: Austin_Grant
+    description: Really solid info
+    createdAt: '2022-02-03 08:48:56'
+    author: sheldon.frami@yahoo.com
